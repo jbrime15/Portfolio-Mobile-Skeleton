@@ -12,7 +12,7 @@
 
 ## Live Demos
 
-[Live Demo Link]()
+[Live Demo Link](https://jbrime15.github.io/portfolio-mobile-skeleton/)
 
 
 ## Getting Started
