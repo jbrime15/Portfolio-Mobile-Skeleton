@@ -1,69 +1,68 @@
 
 body {
-    width: 375px;
-    font-family: 'Poppins', sans-serif;
+  width: 375px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
 }
 
 .menu {
-    margin: 10px;
+  margin: 10px;
 }
 
-.logo{
-    color: #6070FF;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 5px;
+.logo {
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
 }
 
-.introduction{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 114px 24px;
-text-align: center;
-position: relative;
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  text-align: center;
+  position: relative;
 }
 
-.intro{
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.intro {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.intro-header{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 52px;
-    display: flex;
-    align-items: flex-start;
-    color: #172B4D;
-    text-align: left;
+.intro-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: flex-start;
+  color: #172b4d;
+  text-align: left;
 }
 
-.about-me{
-    font-family: Poppins;
-    font-style: normal;
-    color: #344563;
-    display: flex;
-    align-items: stretch;
-    text-align: left;
+.about-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #344563;
+  display: flex;
+  align-items: stretch;
+  text-align: left;
 }
 
-.socials{
-    position: absolute;
-    bottom: 5%;
-    left: 25%;
- 
+.socials {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
 }
