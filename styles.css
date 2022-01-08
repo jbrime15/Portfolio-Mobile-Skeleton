@@ -25,16 +25,15 @@ body {
 }
 
 .introduction {
-background-image: url(./images/header-shapes-mobile.png);
-width: 375px;
-background-size: cover;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+  background-image: url(./images/header-shapes-mobile.png);
+  width: 375px;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 
 .intro-header {
   height: 150px;
