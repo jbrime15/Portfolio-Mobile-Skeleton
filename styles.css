@@ -1,0 +1,75 @@
+
+body {
+  width: 375px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.menu {
+  margin: 10px;
+}
+
+.logo {
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.introduction {
+  background-image: url(./images/header-shapes-mobile.png);
+  width: 375px;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-header {
+  height: 150px;
+  width: 280px;
+  top: 114px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 57px;
+}
+
+.about-me {
+  height: 146px;
+  width: 327px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.lets-connect {
+  height: 24px;
+  width: 117px;
+  left: 24px;
+  top: 434px;
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  margin-left: 23px;
+  padding: 0;
+  width: 52%;
+}
