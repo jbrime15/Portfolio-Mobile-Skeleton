@@ -79,10 +79,10 @@ body {
 }
 
 .projects {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
-.card1{
+.card1 {
   width: 300px;
   height: 596px;
   margin-left: 24px;
@@ -91,7 +91,7 @@ body {
   border-radius: 16px;
   padding: 16px;
   padding-bottom: 25px;
-  background-color: #ffffff;
+  background-color:  #fff;
 }
 
 .topic {
@@ -133,7 +133,7 @@ body {
   padding: 5px;
   border-radius: 10px;
   margin: 3px;
-  background-color: #EBEBff;
+  background-color: #ebebff;
   color: #6070ff;
   list-style-type: none;
   transform: translateX(-40px);
@@ -157,11 +157,7 @@ body {
   margin: 24px;
 }
 
-.lets-connect, 
-.myself-content, 
-.resume, 
-.language, 
-.framework {
+.lets-connect,.myself-content,.resume,.language,.framework {
   margin: 24px;
 }
 
@@ -180,7 +176,7 @@ body {
   background-color: white;
   border-radius: 12px;
   border: 1px solid;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
 }
 
@@ -201,7 +197,7 @@ body {
 }
 
 .project-icon li {
-  background-color: #f7F7f9;
+  background-color: #f7f7f9;
   color: #253858;
   margin-right: 12px;
   margin-top: 12px;
