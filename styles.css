@@ -157,11 +157,10 @@ body {
   margin: 24px;
 }
 
-.lets-connect
-,.myself-content
-,.resume
-,.language
-,.framework {
+.lets-connect,
+.myself-content,
+.resume,.language,
+.framework {
   margin: 24px;
 }
 
