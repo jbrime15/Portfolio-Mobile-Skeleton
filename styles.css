@@ -1,6 +1,8 @@
 
 body {
   width: 375px;
+  height: 5410px;
+  background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,6 +35,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: white;
+  border-bottom-left-radius: 52px;
 }
 
 .intro-header {
@@ -72,4 +76,153 @@ body {
   margin-left: 23px;
   padding: 0;
   width: 52%;
+}
+
+.projects {
+  background-color: #e5e5e5;
+}
+
+.card1 {
+  width: 300px;
+  height: 596px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 114px;
+  border-radius: 16px;
+  padding: 16px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.topic {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.tonic-content {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(-40px);
+  list-style-type: circle;
+  color: #7a869a;
+  font-size: 13px;
+}
+
+.canopy {
+  list-style: none;
+  color: #344563;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.see-project {
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid;
+  color: #396df2;
+  font-size: 17px;
+}
+
+.competence {
+  display: flex;
+  flex-direction: row;
+}
+
+.competence li {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 3px;
+  background-color: #ebebff;
+  color: #6070ff;
+  list-style-type: none;
+  transform: translateX(-40px);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.myself {
+  width: 375px;
+  height: 1000px;
+  padding-top: 114px;
+  background-color: white;
+  margin-top: 114px;
+  border-top-right-radius: 52px;
+}
+
+.about-myself {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  margin: 24px;
+}
+
+.lets-connect,
+.myself-content,
+.resume,
+.language,
+.framework {
+  margin: 24px;
+}
+
+.social-icons-about {
+  list-style: none;
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  width: 52%;
+  margin: 24px;
+}
+
+.resume {
+  padding: 12px;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid;
+  color: #396df2;
+  font-size: 17px;
+}
+
+.language {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.project-icon {
+  list-style: none;
+  transform: translateX(-5px);
+  color: grey;
+}
+
+.project-icon-html {
+  width: 500px;
+  padding: 12px;
+}
+
+.project-icon li {
+  background-color: #f7f7f9;
+  color: #253858;
+  margin-right: 12px;
+  margin-top: 12px;
+  padding: 8px;
+  padding-right: 180px;
+  border-radius: 8px;
+  transform: translateX(-10px);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  background-image: url(./images/Contact-me.png);
+  height: 600px;
+  width: 327px;
+  padding-top: 100px;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: center;
 }
