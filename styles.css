@@ -166,6 +166,10 @@ body {
   border-top-right-radius: 52px;
 }
 
+.footer-icons {
+  list-style: none;
+}
+
 .about-myself {
   font-weight: 700;
   font-size: 40px;
@@ -351,7 +355,7 @@ body {
   margin-top: 18px;
   text-align: center;
   border-radius: 10px;
-  border: 0px;
+  border: 0;
   cursor: pointer;
 }
 
@@ -521,10 +525,14 @@ body {
 }
 
 @media (min-width: 450px) and (max-width: 5000px) {
-  .card1,
+  .card1 {
+    background: none;
+  }
+
   .homepage-indicator {
     background: none;
   }
+
   #card1-image,
   #card2-image,
   #card3-image,
