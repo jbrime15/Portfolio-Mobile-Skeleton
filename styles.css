@@ -1,9 +1,8 @@
-
 body {
   width: 375px;
   height: 5410px;
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -22,15 +21,14 @@ body {
   color: #6070ff;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
-  margin: 5px;
+  font-size: 10px;
 }
 
 .introduction {
   background-image: url(./images/header-shapes-mobile.png);
   width: 375px;
-  background-size: cover;
   height: 100vh;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,21 +38,17 @@ body {
 }
 
 .intro-header {
-  height: 150px;
+  height: 50px;
   width: 280px;
-  top: 114px;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 57px;
+  font-size: 20px;
+  color: #091e42;
 }
 
 .about-me {
   height: 146px;
-  width: 327px;
+  width: 300px;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
 }
 
 .lets-connect {
@@ -85,13 +79,35 @@ body {
 .card1 {
   width: 300px;
   height: 596px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 114px;
+  margin: 114px 24px 114px 24px;
   border-radius: 16px;
   padding: 16px;
-  padding-bottom: 25px;
+  padding-top: 250px;
   background-color: #fff;
+}
+
+#card1-image {
+  background-image: url(./images/Snapshoot-Portfolio-1.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+}
+
+#card2-image {
+  background-image: url(./images/Snapshoot-Portfolio-2.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+}
+
+#card3-image {
+  background-image: url(./images/Snapshoot-Portfolio-3.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+}
+
+#card4-image {
+  background-image: url(./images/Snapshoot-Portfolio-4.png);
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
 }
 
 .topic {
@@ -141,9 +157,9 @@ body {
   font-weight: 500;
 }
 
-.myself {
+.foot {
   width: 375px;
-  height: 1000px;
+  height: 1100px;
   padding-top: 114px;
   background-color: white;
   margin-top: 114px;
@@ -158,7 +174,7 @@ body {
 }
 
 .lets-connect,
-.myself-content,
+.about-content,
 .resume,
 .language,
 .framework {
@@ -218,16 +234,13 @@ body {
 }
 
 .contact-me {
+  width: 375px;
+  height: 810px;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  width: 405px;
-  height: 810px;
-  position: absolute;
-  margin-left: -30px;
-  border-top-left-radius: 100px;
-  background-color: #6070ff;
-  background-image: url(images/contact.png);
-  background-repeat: no-repeat;
 }
 
 .contact-me h2 {
@@ -334,7 +347,188 @@ body {
   font-weight: 500;
   font-size: 17px;
   font-style: normal;
-  margin-left: 12px;
+  margin-left: 24px;
   margin-top: 18px;
   text-align: center;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+}
+
+@media (min-width: 450px) {
+  body {
+    height: 5125px;
+    width: 1350px;
+    background-color: #e5e5e5;
+    font-family: "Poppins", sans-serif;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .introduction {
+    background: url(./images/Header.png);
+    background-color: #fff;
+    width: 1350px;
+    height: 916px;
+    border-bottom-left-radius: 100px;
+    transform: translateX(-8px);
+  }
+
+  .intro-header {
+    width: 920px;
+    height: 122px;
+    margin-left: 20px;
+    font-size: 48px;
+    color: #091e42;
+    display: flex;
+    justify-content: start;
+  }
+
+  .about-me {
+    width: 920px;
+    height: 98px;
+    margin-left: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+  }
+
+  .lets-connect {
+    width: 117px;
+    font-size: 16px;
+    color: #7f8cff;
+  }
+
+  .social-icons {
+    width: 200px;
+    list-style: none;
+    display: flex;
+    grid-gap: 20px;
+  }
+
+  .card1 {
+    padding-top: 0;
+  }
+
+  .container1 {
+    height: 496px;
+    width: 1000px;
+    margin-top: 120px;
+    margin-left: 120px;
+    background-image: url(./images/D-Snapshoot-Portfolio.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .container2 {
+    height: 496px;
+    width: 1000px;
+    margin-top: 150px;
+    margin-left: 120px;
+    padding-right: 10px;
+    background-color: #fff;
+    background-image: url(./images/D-Snapshoot-Portfolio-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    border-radius: 24px;
+  }
+
+  .container3 {
+    height: 496px;
+    width: 1000px;
+    margin-top: 120px;
+    margin-left: 120px;
+    background-image: url(./images/D-Snapshoot-Portfolio-2.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .container4 {
+    height: 496px;
+    width: 1000px;
+    margin-top: 150px;
+    margin-left: 120px;
+    padding-right: 10px;
+    background-color: #fff;
+    background-image: url(./images/D-Snapshoot-Portfolio-3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    border-radius: 24px;
+  }
+
+  .foot {
+    width: 1350px;
+    border-top-right-radius: 150px;
+  }
+
+  .foot-section {
+    background-color: #fff;
+    height: 700px;
+    border-top-right-radius: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer-icons {
+    list-style: none;
+  }
+
+  .about-content {
+    width: 420px;
+  }
+
+  .footer-icon {
+    border-radius: 8px;
+    background: #f7f7f9;
+    padding: 20px;
+  }
+
+  .contact-me {
+    background-image: url(./images/contact-2.png);
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 810px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 5000px) {
+  .card1,
+  .homepage-indicator {
+    background: none;
+  }
+  #card1-image,
+  #card2-image,
+  #card3-image,
+  #card4-image {
+    background-image: none !important;
+  }
 }

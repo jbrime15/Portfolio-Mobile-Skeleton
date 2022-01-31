@@ -2,8 +2,8 @@
 
 # Portfolio
 
-
-> The project is to build a mobile website using the template chosen in the previous step..
+Added contact form for mobile and skeleton body.
+![screenshot](images/project_Screenshot.JPG)
 
 ## Built With
 - HTML
@@ -51,6 +51,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Abenezer Mesafint
 - Microverse
 
 ## 📝 License
