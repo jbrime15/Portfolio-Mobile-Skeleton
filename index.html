@@ -9,16 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="./functionality.js"></script>
 </head>
 <body>
-    <header class="header-background">
+    <header class="header-background" id="head-background">
         <nav class="navbar">
-            <a class="logo" href="#">
-                My Logo
-            </a>
-            <img class="menu" src="images/Enabled.png" alt="menubar">
+            <a class="logo" href="#">My Logo</a>
+            <ul class="navbar-links">
+                <li class="navbar-items"><a href="#">portfolio</a></li>
+                <li class="navbar-items"><a href="#">about</a></li>
+                <li class="navbar-items"><a href="#">contact</a></li>
+            </ul>
         </nav>
-    <section class ="introduction">
+    <div class ="introduction">
         <div class="intro">
             <h1 class="intro-header">
                 I'm Jubril <br> Glad to see you!
@@ -35,11 +38,11 @@
             <li><img class="social-icon" src="images/angellist.png" alt="angellist"></li>
         </ul>
         </div>
-    </section>
+    </div>
     </header>
 
-    <section class="container1">
-        <div class="card1" id="card1-image">
+    <section class="container1" id="card1-image">
+        <div class="card1">
             <h3 class="topic">TONIC</h3>
                 <ul class="tonic-content">
                     <li class="section-items"><span class="tag">CANOPY</span></li>
@@ -111,14 +114,14 @@
     </section>
 
 <footer class="foot">
-    <div class="foot-section">
-        <div class="one">
+    <div class="foot-section">    
+    <div class="one">
         <h1 class="about-myself">About <br>myself</h1>
         <p class="about-content">
             Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
         <h3 class="lets-connect">Lets Connect</h3>
-        <ul class="social-icons">
+        <ul class="social-icons-1">
             <li><img class="social-icon" src="images/twitter.png" alt="twitter"></li>
             <li><img class="social-icon" src="images/Linkedin-icon.png" alt="Linkedin"></li>
             <li><img class="social-icon" src="images/medium.png" alt="medium"></li>
@@ -129,7 +132,7 @@
     </div>
     <div class="footer-icons">
         <span class="language">Languages</span>
-        <ul class="social-icons">   
+        <ul class="social-icons-2">   
             <li><div class="project-icon"><img class="footer-icon" src="images/js-icon.png" alt="twitter"><div class="js-bottom">javascript</div></div></li>
             <li><div class="project-icon"><img class="footer-icon" src="images/html-icon.png" alt="Linkedin"><div class="js-bottom">Html</div></div></li>
             <li><div class="project-icon"><img class="footer-icon" src="images/css-icon.png" alt="medium"><div class="js-bottom">css</div></div></li>
@@ -147,7 +150,7 @@
             a feature that you need built or a project that needs coding.
             I’d love to help with it 
         </p>
-        <form class="form" action="https://formspree.io/f/xayvqwwl" method="POST">                
+        <form class="form-div" action="https://formspree.io/f/xayvqwwl" method="POST">                
             <input type="text" id="name" maxlength="30" name="user_name" placeholder="Jubril" required>                   
             <input type="email" id="email"
                name="user_email" 
@@ -162,8 +165,7 @@
                 placeholder="Write your message here"
                 required>
             </textarea>                  
-            <button class="form-button" type="submit">Get In Touch</button> 
-            <img class="homepage-indicator" src="images/Shape.png" alt="">                                 
+            <button class="form-button" type="submit">Get In Touch</button>                                 
           </form>
     </div>
 </footer>

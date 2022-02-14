@@ -3,16 +3,16 @@
 # Portfolio
 
 Added contact form for mobile and skeleton body.
-![screenshot](images/project_Screenshot.JPG)
+![screenshot](images/project_Screenshot.png)
 
 ## Built With
+
 - HTML
 - CSS
 
 ## Live Demos
 
 [Live Demo Link](https://jbrime15.github.io/portfolio-mobile-skeleton/)
-
 
 ## Getting Started
 
@@ -24,14 +24,13 @@ Webbrowser and access to internet
 
 ### Install
 
-1) Clone the repository to your machine;
+1. Clone the repository to your machine;
 
 ```sh
 $ git clone https://github.com/jbrime15/portfolio-mobile-skeleton
 ```
 
-2) Navigate to the project folder and execute the "index.html" file.
-
+2. Navigate to the project folder and execute the "index.html" file.
 
 ## Author
 
@@ -51,7 +50,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Abenezer Mesafint
 - Microverse
 
 ## 📝 License
