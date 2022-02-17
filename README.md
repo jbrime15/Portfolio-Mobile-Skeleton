@@ -2,18 +2,17 @@
 
 # Portfolio
 
-
-> The project is to build a mobile website using the template chosen in the previous step..
-
+Added contact form for mobile and skeleton body.
+![screenshot](images/project_Screenshot.png)
 
 ## Built With
+
 - HTML
 - CSS
 
 ## Live Demos
 
 [Live Demo Link](https://jbrime15.github.io/portfolio-mobile-skeleton/)
-
 
 ## Getting Started
 
@@ -25,14 +24,13 @@ Webbrowser and access to internet
 
 ### Install
 
-1) Clone the repository to your machine;
+1. Clone the repository to your machine;
 
 ```sh
 $ git clone https://github.com/jbrime15/portfolio-mobile-skeleton
 ```
 
-2) Navigate to the project folder and execute the "index.html" file.
-
+2. Navigate to the project folder and execute the "index.html" file.
 
 ## Author
 
