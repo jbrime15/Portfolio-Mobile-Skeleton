@@ -1,5 +1,7 @@
 body {
   height: 4850px;
+  padding: 0;
+  margin: 0;
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
 }
@@ -20,11 +22,9 @@ img {
 }
 
 .navbar {
-  padding: 20px;
-  padding-left: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar-links {
@@ -54,6 +54,10 @@ img {
 .navbar-items .logo {
   color: #6070ff;
   font-size: 20px;
+}
+
+.icon {
+  display: none;
 }
 
 .menu {
@@ -248,6 +252,20 @@ img {
   border-radius: 5px;
 }
 
+.social-icons-1 {
+  width: 150px;
+  padding-left: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons-2 {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+}
+
 .project-icon {
   width: 100px;
   transform: translateX(-2px);
@@ -422,13 +440,35 @@ img {
 
   .navbar {
     padding-left: 10px;
-    padding-top: 0;
+    padding-right: 10px;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  #topnav {
+    display: none;
   }
 
   .navbar-links {
     font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 150px;
+    height: 92vh;
+    background-color: #6070ff;
+  }
+
+  .navbar-links a {
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: transform 1s ease-in;
   }
 
   .logo {

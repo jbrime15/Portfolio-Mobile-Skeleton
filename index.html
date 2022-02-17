@@ -9,17 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="./functionality.js"></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./app.js"></script>
 </head>
 <body>
     <header class="header-background" id="head-background">
         <nav class="navbar">
             <a class="logo" href="#">My Logo</a>
-            <ul class="navbar-links">
-                <li class="navbar-items"><a href="#">portfolio</a></li>
-                <li class="navbar-items"><a href="#">about</a></li>
-                <li class="navbar-items"><a href="#">contact</a></li>
+            <ul class="navbar-links" id="topnav">
+                <li class="navbar-items"><a href="#portfolio">portfolio</a></li>
+                <li class="navbar-items"><a href="#about">about</a></li>
+                <li class="navbar-items"><a href="#contact">contact</a></li>
             </ul>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>         
         </nav>
     <div class ="introduction">
         <div class="intro">
@@ -41,7 +47,8 @@
     </div>
     </header>
 
-    <section class="container1" id="card1-image">
+    <section id="portfolio">
+    <div class="container1" id="card1-image">
         <div class="card1">
             <h3 class="topic">TONIC</h3>
                 <ul class="tonic-content">
@@ -57,9 +64,9 @@
                 </ul>
                 <button class="see-project" type="submit">See Project</button>
         </div>
-    </section>
+    </div>
 
-    <section class="container2">
+    <div class="container2">
         <div class="card1" id="card2-image">
             <h3 class="topic">Multipost-Post Stories</h3>
             <ul class="tonic-content">
@@ -75,9 +82,9 @@
             </ul>
             <button class="see-project" type="submit">See Project</button>
         </div>
-    </section>
+    </div>
 
-    <section class="container3">
+    <div class="container3">
         <div class="card1" id="card3-image">
             <h3 class="topic">TONIC</h3>
             <ul class="tonic-content">
@@ -93,9 +100,9 @@
             </ul>
             <button class="see-project" type="submit">See Project</button>
         </div>
-    </section>
+    </div>
 
-    <section class="container4">
+    <div class="container4">
         <div class="card1" id="card4-image">
             <h3 class="topic">Multipost-Post Stories</h3>
             <ul class="tonic-content">
@@ -111,9 +118,10 @@
             </ul>
             <button class="see-project" type="submit">SEE project</button>
         </div>
-    </section>
+    </div>
+</section>
 
-<footer class="foot">
+<footer class="foot" id="about">
     <div class="foot-section">    
     <div class="one">
         <h1 class="about-myself">About <br>myself</h1>
@@ -143,7 +151,7 @@
     </div>
     </div>
 
-    <div class="contact-me">
+    <div class="contact-me" id = "contact">
         <h2>Contact me</h2>
         <p class="form-text">
              If you have an application you are interested in developing,
