@@ -9,8 +9,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< Updated upstream
   width: 100%;
   padding: 10px;
+=======
+  justify-content: space-around;
+}
+
+#topnav {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-items a {
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .menu {
@@ -21,7 +37,20 @@ body {
   color: #6070ff;
   text-decoration: none;
   font-weight: bold;
+<<<<<<< Updated upstream
   font-size: 10px;
+=======
+  font-size: 30px;
+}
+
+.navbar-items .logo {
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.menu {
+  margin: 10px;
+>>>>>>> Stashed changes
 }
 
 .introduction {
@@ -367,6 +396,7 @@ body {
     font-family: "Poppins", sans-serif;
   }
 
+<<<<<<< Updated upstream
   img {
     max-width: 100%;
     max-height: 100%;
@@ -383,6 +413,97 @@ body {
     height: 916px;
     border-bottom-left-radius: 100px;
     transform: translateX(-8px);
+=======
+  #head-background {
+    width: 375px;
+    height: 718px;
+    margin-left: 10px;
+    border-bottom-left-radius: 80px;
+    background-image: url(./images/header-shapes-mobile.png);
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #6070ff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #toggle::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  #toggle::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    transform: translateY(5px);
+    transition: 0.2s;
+  }
+
+  #toggle.active::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+
+  #toggle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  #toggle.active {
+    background: red;
+  }
+
+  #topnav {
+    width: 0;
+    overflow: hidden;
+  }
+
+  #topnav.active {
+    font-size: 17px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 150px;
+    height: 92vh;
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  #topnav ul li a {
+    position: relative;
+  }
+
+  .logo {
+    width: 450px;
+    font-size: 20px;
+>>>>>>> Stashed changes
   }
 
   .intro-header {
