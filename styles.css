@@ -1,5 +1,5 @@
 body {
-  width: 375px;
+  width: 5125px;
   height: 5410px;
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
@@ -9,10 +9,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< Updated upstream
-  width: 100%;
-  padding: 10px;
-=======
   justify-content: space-around;
 }
 
@@ -26,7 +22,6 @@ body {
   color: black;
   text-decoration: none;
   font-weight: bold;
->>>>>>> Stashed changes
 }
 
 .menu {
@@ -37,9 +32,6 @@ body {
   color: #6070ff;
   text-decoration: none;
   font-weight: bold;
-<<<<<<< Updated upstream
-  font-size: 10px;
-=======
   font-size: 30px;
 }
 
@@ -50,7 +42,6 @@ body {
 
 .menu {
   margin: 10px;
->>>>>>> Stashed changes
 }
 
 .introduction {
@@ -390,30 +381,12 @@ body {
 
 @media (min-width: 450px) {
   body {
-    height: 5125px;
+    height: 375px;
     width: 1350px;
     background-color: #e5e5e5;
     font-family: "Poppins", sans-serif;
   }
 
-<<<<<<< Updated upstream
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .logo {
-    font-size: 20px;
-  }
-
-  .introduction {
-    background: url(./images/Header.png);
-    background-color: #fff;
-    width: 1350px;
-    height: 916px;
-    border-bottom-left-radius: 100px;
-    transform: translateX(-8px);
-=======
   #head-background {
     width: 375px;
     height: 718px;
@@ -503,7 +476,6 @@ body {
   .logo {
     width: 450px;
     font-size: 20px;
->>>>>>> Stashed changes
   }
 
   .intro-header {
